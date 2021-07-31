@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "cat.yoink.keemy.patches",
+  "refmap": "mixin.keemy.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.7.4-SNAPSHOT",
+  "mixins": [
+    "NetworkManagerPatch"
+  ]
+}
